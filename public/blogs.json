@@ -7,7 +7,8 @@
         "author_image": "https://i.ibb.co/VMf6q0W/cute-blond-girl-sitting-table-drawing-generated-by-ai.jpg",
         "post_date": "September 25, 2023",
         "reading_time": "12 ",
-        "Hashtags": ["#QuantumPhysics", "#Science", "#Exploration"]
+        "reading_image": "https://i.ibb.co/LrdsFg5/Frame.png",
+        "hashtags": ["#QuantumPhysics", "#Science", "#Exploration"]
     },
     {
         "id": 2,
@@ -16,37 +17,41 @@
         "author": "Chef Marco Rossi",
         "author_image": "https://i.ibb.co/271yJKL/man-stands-front-stacks-books-library.jpg",
         "post_date": "October 8, 2023",
-        "readidg_time": "8 ",
+        "reading_time": "8 ",
+        "reading_image": "https://i.ibb.co/LrdsFg5/Frame.png",
         "hashtags": ["#ItalianCuisine", "#Food", "#Travel"]
     },
     {
         "id": 3,
-        "titlt": "Mastering the Art of Digital Photography",
-        "Cover": "https://i.ibb.co/sg911rL/young-student-sitting-table-use-laptop.jpg",
+        "title": "Mastering the Art of Digital Photography",
+        "cover": "https://i.ibb.co/sg911rL/young-student-sitting-table-use-laptop.jpg",
         "author": "Emily Johnson",
         "author_image": "https://i.ibb.co/XSdbJdW/reading-seniors-library-gain-wisdom-together-generated-by-ai.jpg",
         "post_date": "August 15, 2023",
         "reading_time": "15 ",
+        "reading_image": "https://i.ibb.co/LrdsFg5/Frame.png",
         "hashtags": ["#Photography", "#DigitalArt", "#Creativity"]
     },
     {
         "id": 4,
-        "titlt": "Mindfulness Meditation: A Path to Inner Peace",
+        "title": "Mindfulness Meditation: A Path to Inner Peace",
         "cover": "https://i.ibb.co/RjFd7PY/343346615-1331224244491187-1508166858232048188-n.jpg",
         "author": "John Dewli",
         "author_image": "https://i.ibb.co/P5cD5JX/view-woman-holding-cup-coffee.jpg",
         "post_date": "July 5, 2023",
-        "readidg_time": "10 ",
+        "reading_time": "10 ",
+        "reading_image": "https://i.ibb.co/LrdsFg5/Frame.png",
         "hashtags": ["#Mindfulness", "#Meditation", "#Wellness"]
     },
     {
         "id": 5,
-        "titlt": "The Future of Artificial Intelligence",
+        "title": "The Future of Artificial Intelligence",
         "cover": "https://i.ibb.co/kQtVJNP/istockphoto-1334906074-1024x1024.jpg",
         "author": "Dr. Sarah Lee",
         "author_image": "https://i.ibb.co/sg911rL/young-student-sitting-table-use-laptop.jpg",
-        "Post_Date": "November 12, 2023",
-        "readidg_time": "20 ",
+        "post_date": "November 12, 2023",
+        "reading_time": "20 ",
+        "reading_image": "https://i.ibb.co/LrdsFg5/Frame.png",
         "hashtags": ["#AI", "#Technology", "#FutureTrends"]
     }
 ]
