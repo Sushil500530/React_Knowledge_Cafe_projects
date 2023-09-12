@@ -1,8 +1,8 @@
 
 import PropTypes from "prop-types";
-const Blog = ({ blog, handleAddToBookmard }) => {
+const Blog = ({ blog, handleAddToBookmard,handleSpendReadingTime }) => {
 //   console.log(blog);
-  const {title,cover,author_image,author,post_date,hashtags,reading_time,reading_image} = blog;
+  const {id,title,cover,author_image,author,post_date,hashtags,reading_time,reading_image} = blog;
   // console.log(title)
   return (
     <div className="my-16 space-y-3">
@@ -18,7 +18,7 @@ const Blog = ({ blog, handleAddToBookmard }) => {
           </div>
         </div>
         <div>
-          <span className="flex gap-1">{reading_time} min read <button onClick={()=> handleAddToBookmard(blog)}><img className=" focus:bg-blue-500 active:bg-blue-500" src={reading_image}/></button></span>
+          <span className="flex gap-1 hover:text-blue-600">{reading_time} min read <button className="hover:text-blue-600" onClick={()=> handleAddToBookmard(blog)}><img src={reading_image}/></button></span>
         </div>
       </div>
       <h1 className="text-4xl font-bold">{title}</h1>
@@ -28,14 +28,15 @@ const Blog = ({ blog, handleAddToBookmard }) => {
         hashtags.map((hash,idx) => <span key={idx}><a className="hover:text-blue-500 m-2" href="">{hash}</a></span>)
       }
       </p>
-      <button className="text-blue-500 text-xl ">Mark as read</button>
+      <button onClick={() =>handleSpendReadingTime(id,reading_time)} className="text-blue-500 text-base hover:underline ">Mark As Read</button>
     </div>
   );
 };
 
 Blog.propTypes = {
   blog: PropTypes.object.isRequired,
-  handleAddToBookmard:PropTypes.func
+  handleAddToBookmard:PropTypes.func.isRequired,
+  handleSpendReadingTime :PropTypes.func.isRequired
 };
 
 export default Blog;

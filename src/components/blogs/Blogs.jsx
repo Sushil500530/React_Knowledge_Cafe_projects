@@ -3,7 +3,7 @@ import Blog from "../blog/Blog";
 import PropTypes from 'prop-types'
 
 
-const Blogs = ({handleAddToBookmard}) => {
+const Blogs = ({handleAddToBookmard,handleSpendReadingTime}) => {
 
     const [blogs,setBlogs] = useState([]);
 
@@ -21,6 +21,7 @@ const Blogs = ({handleAddToBookmard}) => {
                 key={blog.id}
                  blog={blog}
                  handleAddToBookmard={handleAddToBookmard}
+                 handleSpendReadingTime={handleSpendReadingTime}
                  ></Blog>)
             }
         </div>
@@ -29,6 +30,7 @@ const Blogs = ({handleAddToBookmard}) => {
 
 
 Blogs.propTypes = {
-    handleAddToBookmard: PropTypes.func
+    handleAddToBookmard: PropTypes.func,
+    handleSpendReadingTime: PropTypes.func.isRequired
 }
 export default Blogs;
